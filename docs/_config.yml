@@ -17,22 +17,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-domain: my-site.github.io
+
 title: Your awesome title
 email: your-email@example.com
+domain: kangwooted.github.io/human_disaster/
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/Climate/" # the subpath of your site, e.g. /blog
-url: "https://my-site.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kangwooted.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-plugins: jekyll-include-cache
+theme: minimal-mistakes-jekyll
+plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
